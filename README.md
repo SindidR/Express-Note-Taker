@@ -21,10 +21,10 @@ Express Note Taker
 Express Note Taker is a quick way to take in notes so that the user can be organized through his/her endeavors. It allows the user to enter unique titles to notes and jot down note which will appear in a column to the left.	
 
 ## Installation
-Run npm i and run Node server then go to link https://sindidr.github.io/Express-Note-Taker/Links to an external site  and enter your notes and it will show up in the terminal.
+Run npm i and run Node server then copy and paste the localhost link " http://localhost:3001 ." Once the link is copied and pasted into browser the Note Taker should launch.
 
 ## Usage
-To create notes.
+To create notes and tasks in a list setting.
 
 ## Contribute
 Sindid Reedh
