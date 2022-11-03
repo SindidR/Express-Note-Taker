@@ -6,7 +6,7 @@ router.get('/notes/:id', (req,res) =>{
     res.json(notes[req.params.id]);
 });
 
-router.get('/api/notes', (req,res) =>{
+router.get('/notes', (req,res) =>{
     fs.readFile('./db/db.json', 'utf-8', (err,data) => {
         if(err) throw err;
         let notes = JSON.parse(data);
