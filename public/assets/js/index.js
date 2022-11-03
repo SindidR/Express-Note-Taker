@@ -1,5 +1,3 @@
-const { response } = require("express");
-
 let noteTitle;
 let noteText;
 let saveNoteBtn;
@@ -121,8 +119,7 @@ const handleRenderSaveBtn = () => {
 // Render the list of note titles
 const renderNoteList = async (res) => {
   
-  console.log=await res.json();
-  let jsonNotes = await notes.json();
+  let jsonNotes = await res.json();
   if (window.location.pathname === '/notes') {
     noteList.forEach((el) => (el.innerHTML = ''));
   }
